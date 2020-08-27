@@ -1,0 +1,36 @@
+.container{
+  width: 80%;
+  border: solid 0;
+  border-radius: 20px;
+  padding: 10px;
+color:#F5DEB3
+;
+background: rgb(206,179,255);
+background: linear-gradient(5deg, rgba(206,179,255,1) 23%, rgba(48,0,92,1) 77%, rgba(48,0,92,1) 79%);
+}
+.name{
+  text-align: center;
+  font-weight: bold;
+  margin-right: 3.5%;
+}
+.watch {
+  border-radius: 10px;
+  border: transparent;
+  font-size: 18px;
+  padding: 8px 20px;
+  margin: 30px 0 30px 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+  opacity: 0.8;
+  background: rgb(76,0,92);
+background: linear-gradient(0deg, rgba(76,0,92,1) 36%, rgba(237,152,255,1) 100%);
+  margin-left: 42%;
+}
+.watch:hover{
+	opacity: 1;
+  transform: scale(1.07);
+  -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+  box-shadow: 0 5px 11px 15px rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+.watch:focus {
+  outline: 0;
+}
